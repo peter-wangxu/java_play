@@ -11,7 +11,7 @@ public class SemaphoreTest {
         // 线程池 
         ExecutorService exec = Executors.newCachedThreadPool();  
         // 只能5个线程同时访问 
-        final Semaphore semp = new Semaphore(5);  
+        final Semaphore semp = new Semaphore(5);semp. 
         // 模拟20个客户端访问 
         for (int i = 0; i < 20; i++) {
             final int NO = i;  
